@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="app_name">Baking App</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_recipe_list">Recipes</string>
+    <string name="title_recipe_detail">Step Details</string>
+    <string name="title_activity_detail">Steps Details</string>
+    <string name="title_recipe_about">About Measurements</string>
+    <string name="add_to_widget">Add to Widget</string>
+    <string name="about">About Measurements</string>
+    <string name="prev">PREV</string>
+    <string name="next">NEXT</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="steps">Steps</string>
+    <string name="measurements">
+        t = teaspoon \n\n
+        tsp = teaspoon \n\n
+        T = tablespoon \n\n
+        TBSP = tablespoon \n\n
+        c = cup \n\n
+        oz = ounce \n\n
+        pt = pint \n\n
+        qt = quart \n\n
+        gal = gallon \n\n
+        lb = pound \n\n
+        # = pound \n\n
+        K = kilogram \n\n
+        G = gram \n\n
+        UNIT = amount
+
+    </string>
+    <string name="measurements_title_text">Measurement Abbreviations</string>
+
+
+</resources>

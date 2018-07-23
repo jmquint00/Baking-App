@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/donut"
+        />
+    <TextView
+        android:id="@+id/measurement_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/measurements_title_text"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:background="@color/gray"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp">
+
+    <TextView
+        android:id="@+id/mesurement_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/measurements"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:padding="16dp"
+
+        />
+
+    </ScrollView>
+
+</LinearLayout>
