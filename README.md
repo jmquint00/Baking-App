@@ -5,4 +5,4 @@ Project No. 3 for Udacity AND, baking recipes application.
 #retrofit
 #gson
 This applicaiton makes use of Google's Espresso testing.
-
+Project submitted, reviewed and approved.
